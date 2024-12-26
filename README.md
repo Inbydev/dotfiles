@@ -5,29 +5,29 @@
 For install AUR packages [Tutorial Followed](https://itsfoss.com/install-yay-arch-linux/)
 
 
-```
+```bash
 sudo pacman -Syu
 ```
 
-```
+```bash
 sudo pacman -S --needed base-devel git
 ```
 
-```
+```bash
 git clone https://aur.archlinux.org/yay.git
 ```
 
-```
+```bash
 cd yay
 ```
 
-```
+```bash
 makepkg -si
 ```
 
 ## For Appeareance
 
-```
+```bash
 yay -S --needed hyprpaper-git \
 hyprland-git \
 hyprland-protocol-git \
@@ -49,7 +49,7 @@ zsh \
 
 ## Apps I use
 
-```
+```bash
 yay -S --needed bottom \
 docker \
 docker-compose \
@@ -71,29 +71,23 @@ usbutils
 
 Ensure you have the following installed on your system
 
-## Git
+## Git and Stow
 
-```
-pacman -S git
-```
-
-## Stow
-
-```
-pacman -S stow
+```bash
+pacman -S --needed git stow
 ```
 
 # Installation
 
 First, check out the dotfiles repo in your $HOME directory using git
 
-```
-$ git clone https://github.com/Inbydev/dotfiles.git
-$ cd dotfiles
+```bash
+git clone https://github.com/Inbydev/dotfiles.git
+cd dotfiles
 ```
 
 then use stow to create symlinks
 
-```
-$ stow .
+```bash
+stow .
 ```
