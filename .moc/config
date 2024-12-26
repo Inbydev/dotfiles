@@ -1,0 +1,9 @@
+Theme = nightshade
+Shuffle = yes
+FormatString = "%(a:%a - :)%(t:%t:)"
+AutoLoadLyrics = yes
+SavePlaylist = yes
+SyncPlaylist = yes
+SeekTime = 6
+
+ExecCommand1 = "mpv --speed=1.2 %f"

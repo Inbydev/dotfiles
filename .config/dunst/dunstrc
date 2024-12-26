@@ -1,0 +1,46 @@
+[global]
+enable_posix_regex = true
+width = (0, 600)
+height = 200
+notification_limit = 5
+origin = top-right
+offset = 20x20
+progress_bar = true
+progress_bar_height = 6
+progress_bar_min_width = 200
+progress_bar_max_width = 400
+progress_bar_frame_width = 1
+progress_bar_corner_radius = 3
+progress_bar_corners = all
+min_icon_size=48
+max_icon_size=128
+icon_corner_radius = 4
+icon_corners = all
+indicate_hidden = true
+separator_height = 2
+padding = 12
+horizontal_padding = 12
+text_icon_padding = 8
+frame_width = 2
+gap_size = 5
+separator_color = auto
+sort = urgency_descending
+idle_threshold = 0
+layer = overlay
+force_xwayland = false
+font = "FiraCode Nerd Font 10.8"
+line_height = 0
+format = "<b>%s</b>\n%b"
+vertical_alignment = center
+
+[urgency_low]
+background = "#372f54"
+foreground = "#FFFFFF"
+
+[urgency_normal]
+background = "#372f54"
+foreground = "#FFFFFF"
+
+[urgency_critical]
+background = "372f54"
+foreground = "#FFFFFF"
