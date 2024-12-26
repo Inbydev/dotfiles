@@ -28,21 +28,20 @@ makepkg -si
 ## For Appeareance
 
 ```
-yay -S --needed hyprpaper \
-hyprland \
+yay -S --needed hyprpaper-git \
+hyprland-git \
+hyprland-protocol-git \
 hyprgraphics-git \
 waybar \
 bibata-cursor-theme \
 eza \
 kitty \
-sddm \
-simple-sddm-theme-git \
 grim \
 slurp \
 waybar \
 wofi \
-wttrbar \
-xdg-desktop-portal-hyprland \
+wttrbar-git \
+xdg-desktop-portal-hyprland-git \
 xdg-utils \
 zoxide \
 zsh \
@@ -55,15 +54,15 @@ yay -S --needed bottom \
 docker \
 docker-compose \
 deepin-calculator \
-eog \
 fastfetch \
+xnviewmap \
 librewolf-bin \
 fzf \
 libreoffice-fresh \
 noto-fonts \
 noto-fonts-cjk \
 noto-fonts-emoji \
-p7zip \
+7zip \
 pavucontrol \
 usbutils
 ```
