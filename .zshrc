@@ -91,6 +91,7 @@ function yy() {
 }
 
 export PATH=$HOME/.local/bin:$PATH
+export JAVA_HOME=/usr/lib/jvm/java-21-openjdk
 
 # Comment if don't needed
 source "${HOME}/dotfiles/zshrc-functions.sh"
