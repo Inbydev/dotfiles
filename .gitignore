@@ -71,3 +71,7 @@ zshrc-functions.sh
 xnviewmp
 .config/Hardcoded Software/
 .config/kdeglobals
+.config/Google/
+.config/galculator/
+.config/go/
+.config/qalculate/
