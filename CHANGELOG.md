@@ -1,14 +1,16 @@
-### Changelog
+## Changelog
 
 All notable changes on the dotfiles will be documented in this file.
 
 #### v0.0.3
-- Updated waybar styles to a windows 98 modern style (I tried)
-- Moved nano syntax highlighting to .config for better organization
+> 05 Jan 2025
+- Removed unnecessary tray border on waybar
+- Redesigned Waybar theme with a modern Windows 98-inspired style (I tried)
+- Relocated nano syntax highlighting folder to `.config/` directory for better file organization
 
 #### v0.0.2
 > 05 Jan 2025
-- Modified .stow-local-ignore to ignore .gitignore on 'stow .'
+- Updated `.stow-local-ignore` configuration to exclude `.gitignore` file when running `stow .`
 
 #### v0.0.1
 > 26 Dec 2024
