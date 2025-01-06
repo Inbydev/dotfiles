@@ -4,7 +4,7 @@ All notable changes on the dotfiles will be documented in this file.
 
 #### v0.0.3
 > 05 Jan 2025
-- Removed unnecessary tray border on waybar
+- Removed tray border on waybar
 - Redesigned Waybar theme with a modern Windows 98-inspired style (I tried)
 - Relocated nano syntax highlighting folder to `.config/` directory for better file organization
 
