@@ -28,20 +28,18 @@ makepkg -si
 ## For Appeareance
 
 ```bash
-yay -S --needed hyprpaper-git \
-hyprland-git \
-hyprland-protocol-git \
-hyprgraphics-git \
-waybar \
+yay -S --needed hyprpaper \
+hyprland \
+ags-hyprpanel-git \
+hyprpicker \
+swww \
 bibata-cursor-theme \
 eza \
 kitty \
 grim \
 slurp \
-waybar \
 wofi \
-wttrbar-git \
-xdg-desktop-portal-hyprland-git \
+xdg-desktop-portal-hyprland \
 xdg-utils \
 zoxide \
 zsh \
@@ -50,21 +48,82 @@ zsh \
 ## Apps I use
 
 ```bash
-yay -S --needed bottom \
+yay -S --needed 7zip \
+aegisub-arch1t3cht-git \
+android-studio \
+android-tools \
+bibata-cursor-theme \
+bottom \
+cava \
+clamav \
+cpupower-gui \
+cuda \
 docker \
 docker-compose \
-deepin-calculator \
+dosfstools \
+downgrade \
+dupeguru \
+dust \
+easyeffects \
 fastfetch \
-xnviewmap \
-librewolf-bin \
+fdupes \
+freetube \
 fzf \
+git \
+github-cli \
+gitleaks \
+gradle \
+grim \
+imagemagick \
+jdk17-openjdk \
+kdenlive \
+krita \
+kronometer \
 libreoffice-fresh \
+librewolf-bin \
+linux-firmware \
+linux-hardened \
+linux-hardened-headers \
+lxappearance \
+man-db \
+moc-pulse \
+mpv \
+nano \
+nautilus \
+networkmanager \
+nicotine+ \
 noto-fonts \
 noto-fonts-cjk \
 noto-fonts-emoji \
-7zip \
+ntfs-3g \
+nvidia-open-dkms \
+obsidian \
+openrazer-daemon \
 pavucontrol \
-usbutils
+picard \
+pipewire-alsa \
+pipewire-pulse \
+pnpm \
+polychromatic \
+protonmail-bridge-bin \
+qalculate-gtk \
+reflector \
+rustup \
+schildichat-desktop-bin \
+slurp \
+smartmontools \
+spek \
+syncthing \
+tenacity \
+thunderbird \
+ufw \
+unrar \
+woff2 \
+wofi \
+xdg-desktop-portal-gtk \
+xnviewmp \
+yazi \
+yt-dlp \
 ```
 
 # Usage
