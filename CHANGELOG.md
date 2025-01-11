@@ -2,6 +2,14 @@
 
 All notable changes on the dotfiles will be documented in this file.
 
+#### v0.0.4
+> 05 Jan 2025
+- Added new fastfetch theme
+- Changed mpv to vlc on yazi
+- Now using hyprpanel
+- Updated some folders on .gitignore
+- Changed pipewire config to use more than 48kHz
+
 #### v0.0.3
 > 05 Jan 2025
 - Removed tray border on waybar
