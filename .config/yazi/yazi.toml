@@ -46,7 +46,7 @@ reveal = [
 extract = [{ run = 'unar "$1"', desc = "Extract here", for = "unix" }]
 
 play = [
-    { run = 'mpv "$@"', orphan = false, for = "unix" },
+    { run = 'vlc "$@"', orphan = true, for = "unix" },
     { run = '''mediainfo "$1"; echo "Press enter to exit"; read _''', block = true, desc = "Show media info", for = "unix" },
 ]
 
