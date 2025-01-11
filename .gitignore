@@ -1,3 +1,4 @@
+zshrc-functions-unused.sh
 .zsh_history
 .ssh
 .cache
@@ -16,7 +17,6 @@
 .dart-tool
 .cargo
 .aegisub
-.zshrc-functions
 .config/flutter
 .config/hypr/hyprpaper.conf
 .config/cpupower_gui
