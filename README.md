@@ -1,6 +1,8 @@
 # My dotfiles (Inbydev)
 
-## yay
+## Packages
+
+### yay
 
 For install AUR packages [Tutorial Followed](https://itsfoss.com/install-yay-arch-linux/)
 
@@ -25,7 +27,7 @@ cd yay
 makepkg -si
 ```
 
-## For Appeareance
+### For Appeareance
 
 ```bash
 yay -S --needed hyprpaper \
