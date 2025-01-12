@@ -1,4 +1,4 @@
-# Packages
+# My dotfiles (Inbydev)
 
 ## yay
 
@@ -44,6 +44,32 @@ xdg-utils \
 zoxide \
 zsh \
 ```
+
+## Usage
+
+Ensure you have the following installed on your system
+
+### Git and Stow
+
+```bash
+pacman -S --needed git stow
+```
+
+## Installation
+
+First, check out the dotfiles repo in your $HOME directory using git
+
+```bash
+git clone https://github.com/Inbydev/dotfiles.git
+cd dotfiles
+```
+
+then use stow to create symlinks
+
+```bash
+stow .
+```
+
 
 ## Apps I use
 
@@ -124,29 +150,4 @@ xdg-desktop-portal-gtk \
 xnviewmp \
 yazi \
 yt-dlp \
-```
-
-# Usage
-
-Ensure you have the following installed on your system
-
-## Git and Stow
-
-```bash
-pacman -S --needed git stow
-```
-
-# Installation
-
-First, check out the dotfiles repo in your $HOME directory using git
-
-```bash
-git clone https://github.com/Inbydev/dotfiles.git
-cd dotfiles
-```
-
-then use stow to create symlinks
-
-```bash
-stow .
 ```
