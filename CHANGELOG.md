@@ -2,8 +2,12 @@
 
 All notable changes on the dotfiles will be documented in this file.
 
+#### v0.0.5
+> 12 Jan 2025
+- Added 'SoundDriver = ALSA' (need to install `pipewire-alsa` to work) because I don't hear anything without it
+
 #### v0.0.4
-> 05 Jan 2025
+> 10 Jan 2025
 - Added new fastfetch theme
 - Changed mpv to vlc on yazi
 - Now using hyprpanel
