@@ -5,6 +5,7 @@ All notable changes on the dotfiles will be documented in this file.
 #### v0.0.5
 > 12 Jan 2025
 - Added 'SoundDriver = ALSA' (need to install `pipewire-alsa` to work) because I don't hear anything without it
+- Fix cursor on electron apps
 
 #### v0.0.4
 > 10 Jan 2025
