@@ -5,5 +5,6 @@ AutoLoadLyrics = yes
 SavePlaylist = yes
 SyncPlaylist = yes
 SeekTime = 6
+SoundDriver = ALSA
 
 ExecCommand1 = "mpv --speed=1.2 %f"
