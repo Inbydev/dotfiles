@@ -17,6 +17,9 @@
 .cargo
 .aegisub
 .zshrc-functions
+.config/s-tui/hooks.d
+.config/psysh
+.config/composer
 .config/flutter
 .config/hypr/hyprpaper.conf
 .config/cpupower_gui
