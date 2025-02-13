@@ -22,8 +22,8 @@ keymap = [
     { on = "<S-Up>", run = "arrow -5", desc = "Move cursor up 5 slots" },
     { on = "<S-Down>", run = "arrow 5", desc = "Move cursor down 5 slots" },
 
-    { on = "<C-Up>", run = "arrow -99999999", desc = "Move cursor to the top" },
-    { on = "<C-Down>", run = "arrow 99999999", desc = "Move cursor to the bottom" },
+    { on = "<C-Up>", run = "arrow top", desc = "Move cursor to the top" },
+    { on = "<C-Down>", run = "arrow bot", desc = "Move cursor to the bottom" },
 
     # Navigation
     { on = "h", run = "leave", desc = "Go back to the parent directory" },

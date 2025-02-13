@@ -32,6 +32,8 @@ libreoffice = [
     { run = 'libreoffice "$1"', desc = "Open with LibreOffice", for = "linux" },
 ]
 
+foliate = [{ run = 'foliate "$@"', desc = "Open with Foliate", for = "linux" }]
+
 edit = [
     { run = 'zed "$@"', desc = "Open with Zed", block = true, for = "linux" },
 ]
@@ -52,30 +54,48 @@ play = [
 
 [open]
 rules = [
-    # Documentos de texto (LibreOffice Writer y Word)
-    { mime = "application/{vnd.oasis.opendocument.text,vnd.openxmlformats-officedocument.wordprocessingml.document}", use = [
+    # Archivos de texto compatibles con LibreOffice (ODT)
+    { name = "*.odt", use = [
         "libreoffice",
         "reveal",
     ] },
-
-    # Hojas de cálculo (LibreOffice Calc y Excel)
-    { mime = "application/{vnd.oasis.opendocument.spreadsheet,vnd.openxmlformats-officedocument.spreadsheetml.sheet}", use = [
+    # Archivos de hojas de cálculo compatibles con LibreOffice (ODS)
+    { name = "*.ods", use = [
         "libreoffice",
         "reveal",
     ] },
-
+    # Archivos EPUB
+    { name = "*.epub", use = [
+        "foliate",
+        "reveal",
+    ] },
+    # Archivos PDF
+    { name = "*.pdf", use = [
+        "foliate",
+        "reveal",
+    ] },
+    # Documentos de texto genéricos (Word y otros)
+    { mime = "application/vnd.openxmlformats-officedocument.wordprocessingml.document", use = [
+        "libreoffice",
+        "reveal",
+    ] },
+    # Hojas de cálculo genéricas (Excel y otros)
+    { mime = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", use = [
+        "libreoffice",
+        "reveal",
+    ] },
     # Folder
     { name = "*/", use = [
         "edit",
         "open",
         "reveal",
     ] },
-    # Text
+    # Text (genérico)
     { mime = "text/*", use = [
         "edit",
         "reveal",
     ] },
-    # Image
+    # Imagen
     { mime = "image/*", use = [
         "open",
         "reveal",
