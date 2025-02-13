@@ -81,3 +81,11 @@ xnviewmp
 .config/galculator/
 .config/go/
 .config/qalculate/
+.android/
+.bun/
+.config/chromium/
+.config/discord/
+.config/github-copilot/
+.config/lsp-plugins/
+.config/music-on-rust/
+.config/vesktop/
