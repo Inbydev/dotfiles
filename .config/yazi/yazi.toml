@@ -54,13 +54,19 @@ play = [
 
 [open]
 rules = [
-    # Archivos de texto compatibles con LibreOffice (ODT)
     { name = "*.odt", use = [
         "libreoffice",
         "reveal",
     ] },
-    # Archivos de hojas de cálculo compatibles con LibreOffice (ODS)
     { name = "*.ods", use = [
+        "libreoffice",
+        "reveal",
+    ] },
+    { name = "*.odp", use = [
+        "libreoffice",
+        "reveal",
+    ] },
+    { name = "*.pptx", use = [
         "libreoffice",
         "reveal",
     ] },
