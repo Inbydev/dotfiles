@@ -3,7 +3,7 @@
 "$schema" = "https://yazi-rs.github.io/schemas/yazi.json"
 
 [manager]
-ratio = [5, 6, 8]
+ratio = [4, 8, 6]
 sort_by = "alphabetical"
 sort_sensitive = false
 sort_reverse = false
@@ -39,6 +39,8 @@ edit = [
 ]
 
 open = [{ run = 'xnviewmp "$@"', desc = "Open with XnViewMP", for = "linux" }]
+
+loupe = [{ run = 'flatpak run org.gnome.Loupe "$@"', desc = "Open with Loupe", for = "linux" }]
 
 reveal = [
     { run = 'xdg-open "$(dirname "$0")"', desc = "Reveal", for = "linux" },
@@ -103,7 +105,7 @@ rules = [
     ] },
     # Imagen
     { mime = "image/*", use = [
-        "open",
+        "loupe",
         "reveal",
     ] },
     # Media

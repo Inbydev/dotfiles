@@ -46,6 +46,7 @@ HISTSIZE=40000
 HISTFILE=~/.zsh_history
 SAVEHIST=$HISTSIZE
 HISTDUP=erase
+
 setopt appendhistory
 setopt sharehistory
 setopt hist_ignore_space
@@ -65,20 +66,11 @@ alias grep='grep --color'
 alias c='clear && printf "\033[3J"'
 alias yay-autoremove='yay -Qtdq | yay -Rns -'
 alias dcdb='docker-compose down && docker-compose up --build -d'
-alias dcdu='docker-compose down && docker-compose up -d'
-alias dcu='docker-compose up -d'
+alias dcdu='docker-compose pull && docker-compose up -d --build --force-recreate'
 alias dps='docker ps'
 
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
-
-# pnpm
-export PNPM_HOME="${HOME}/.local/share/pnpm"
-case ":$PATH:" in
-  ":$PNPM_HOME:") ;;
-  *) export PATH="$PNPM_HOME:$PATH" ;;
-esac
-# pnpm end
 
 # yazi to yy staying on the current folder on yazi
 function yy() {
@@ -91,9 +83,8 @@ function yy() {
 }
 
 export PATH=$HOME/.local/bin:$PATH
-export PATH="$PATH:$HOME/.config/composer/vendor/bin"
+export XDG_DATA_DIRS="$XDG_DATA_DIRS:$HOME/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share"
 
-# export JAVA_HOME=/usr/lib/jvm/java-21-openjdk
 
 # Comment if don't needed
-source "${HOME}/dotfiles/zshrc-functions.sh"
+#source "${HOME}/.config/scripts/zshrc_functions.sh"

@@ -2,6 +2,12 @@
 
 All notable changes on the dotfiles will be documented in this file.
 
+#### v0.0.6
+> 28 Apr 2025
+- Cleaned up configuration files and updated `.gitignore`
+- Updated `.zshrc` so flatpak apps show up in the wofi drun menu without having to refresh the app cache
+
+
 #### v0.0.5
 > 12 Jan 2025
 - Added 'SoundDriver = ALSA' (need to install `pipewire-alsa` to work) because I don't hear anything without it
